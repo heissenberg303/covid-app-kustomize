@@ -2,6 +2,6 @@
 namespace: backend
 images:
   - name: heissenberg/covid-app
-    newTag: v0.1.0
+    newTag: golang-app-1.0
 resources:
   - ../../../my-app-base
