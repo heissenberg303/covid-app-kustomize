@@ -5,3 +5,7 @@ images:
     newTag: golang-app-1.0
 resources:
   - ../../../my-app-base
+# configMapGenerator:
+#   - name: configmap-file
+#     files:
+#     - configs/config.yaml
