@@ -48,7 +48,7 @@ spec:
           volumeMounts:
             - name: config
               mountPath: "/etc/config.yaml"
-      volumes:
-        - name: config
-          configMap:
-            name: config
+        volumes:
+          - name: config
+            configMap:
+              name: config
