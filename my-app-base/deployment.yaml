@@ -45,10 +45,3 @@ spec:
               port: http
             failureThreshold: 30
             periodSeconds: 10
-          volumeMounts:
-            - name: config
-              mountPath: "/etc/config.yaml"
-        volumes:
-          - name: config
-            configMap:
-              name: config
